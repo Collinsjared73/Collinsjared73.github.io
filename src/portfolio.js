@@ -37,6 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jared-collins/",
   gmail: "collinsjared73@gmail.com",
   orcid: "https://orcid.org/0009-0006-7184-3875",
+  researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
+  scholar: "https://scholar.google.com/citations?user=TxC9P4AAAAAJ&hl=en&oi=ao",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
