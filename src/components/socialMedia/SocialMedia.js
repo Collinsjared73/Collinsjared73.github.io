@@ -147,7 +147,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fab-google-scholar"></i>
+          <i className="fab fa-google-scholar"></i>
           <span></span>
         </a>
       ) : null}
