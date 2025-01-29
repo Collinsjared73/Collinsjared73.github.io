@@ -127,6 +127,19 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      
+      {socialMediaLinks.orcid ? (
+        <a
+          href={socialMediaLinks.orcid}
+          className="icon-button orcid"
+          target="_blank"
+          rel="noopener noreferrer"
+        > 
+          <i className="fab fa-orcid"></i>
+          <span></span>
+        </a>
+      ) : null}
+
     </div>
   );
 }

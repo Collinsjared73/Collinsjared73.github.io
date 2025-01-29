@@ -23,7 +23,7 @@ const greeting = {
   username: "Collinsjared73",
   title: "Hi all, I'm Jared",
   subTitle: emoji(
-    "Test SubTitle"
+    "A passionate computatinal biology researcher and coding hobbyist"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/Collinsjared73",
   linkedin: "https://www.linkedin.com/in/jared-collins/",
   gmail: "collinsjared73@gmail.com",
-  // ORCID: "https://orcid.org/0009-0006-7184-3875",
+  orcid: "https://orcid.org/0009-0006-7184-3875",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
