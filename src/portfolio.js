@@ -80,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "c-sharp",
-      fontAwesomeClassname: "fab csharp"
+      fontAwesomeClassname: "csharp"
     },
     {
       skillName: "html-5",
