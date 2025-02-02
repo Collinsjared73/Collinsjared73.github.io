@@ -29,3 +29,10 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+.<csharp> {
+  background-color: currentColor; /* Inherit the parent color */
+  mask-image: url('../../assets/icons/Logo_C_sharp.png');
+  mask-size: cover;  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: inline-block; /* Ensures it behaves like an inline element */
+}
