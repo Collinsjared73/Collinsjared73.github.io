@@ -261,16 +261,14 @@ const achievementSection = {
       subtitle:
         "Graduate fellowship awarded based on scholastic record to rising graduate students",
       image: require("./assets/images/PSK.webp"),
-      imageAlt: "Phi Sigma Kappa Scholarship Fund",
-      ]
+      imageAlt: "Phi Sigma Kappa Scholarship Fund"
     },
     {
       title: "Randy Rhoads Memorial Scholarship",
       subtitle:
         "",
       image: require("./assets/images/WIP.png"),
-      imageAlt: "WIP",
-      ]
+      imageAlt: "WIP"
     },
 
     {
