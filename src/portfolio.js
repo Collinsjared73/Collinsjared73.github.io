@@ -179,7 +179,6 @@ const workExperiences = {
         "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
 	"Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
         "Analyzed single cell and spatial RNA-seq data from longitudinal serial biopsies as part of paradigm shifting clinical trials in GBM alongside collaborators worldwide",
-	"",
       ]
     },
     {
@@ -262,6 +261,12 @@ const achievementSection = {
         "Graduate fellowship awarded based on scholastic record to rising graduate students",
       image: require("./assets/images/PSK.webp"),
       imageAlt: "Phi Sigma Kappa Scholarship Fund"
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Link",
+          url: "https://google.com/"
+        }
     },
     {
       title: "Randy Rhoads Memorial Scholarship",
@@ -269,6 +274,12 @@ const achievementSection = {
         "",
       image: require("./assets/images/WIP.png"),
       imageAlt: "WIP"
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Link",
+          url: "https://google.com/"
+        }
     },
 
     {
@@ -322,10 +333,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Talk Title",
+      subtitle: "Talk location",
+      slides_url: "https://www.google.com",
+      event_url: "https://www.google.com"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -341,7 +352,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
