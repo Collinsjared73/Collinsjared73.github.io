@@ -267,6 +267,7 @@ const achievementSection = {
           name: "Link",
           url: "https://google.com/"
         }
+      ]
     },
     {
       title: "Randy Rhoads Memorial Scholarship",
@@ -280,6 +281,7 @@ const achievementSection = {
           name: "Link",
           url: "https://google.com/"
         }
+      ]
     },
 
     {
