@@ -53,7 +53,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "",
   skills: [
-    emoji(🔬 Analyze large, multimodal biological datasets to address complex questions),
+    emoji("🔬 Analyze large, multimodal biological datasets to address complex questions"),
     emoji(
       "🛠️ Build new methods to address problems with multi-omics data"
     ),
