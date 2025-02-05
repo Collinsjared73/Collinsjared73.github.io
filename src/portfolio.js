@@ -53,13 +53,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "",
   skills: [
+    emoji(🔬 Analyze large, multimodal biological datasets to address complex questions),
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🛠️ Build new methods to address problems with multi-omics data"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -109,10 +107,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "docker",
@@ -182,8 +176,10 @@ const workExperiences = {
       date: "June 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
+	"Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
+        "Analyzed single cell and spatial RNA-seq data from longitudinal serial biopsies as part of paradigm shifting clinical trials in GBM alongside collaborators worldwide",
+	"",
       ]
     },
     {
@@ -191,14 +187,21 @@ const workExperiences = {
       company: "Georgia Institute of Technology",
       companylogo: require("./assets/images/gt-seal.png"),
       date: "Aug 2021 – May 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: ["Created and held weekly lectures and review sessions for 80+ students",
+	"Taught weekly recitation and guided flipped-classroom style sessions 3x weekly",
+	"Led two wet laboratory classes of 24 students in lecture and experiments across a range of biological sciences",
+	"Wrote and conducted test reviews to bolster student understanding and engagement"
+      ]
     },
     {
       role: "Biologist Researcher Intern",
       company: "Lucid Scientific",
       companylogo: require("./assets/images/lucid_logo.jpeg"),
       date: "May 2022 – Aug 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: ["Analyzed oxygen consumption rate of iPSCs during induced differentiation to cardiomyocytes",
+	"Conducted metabolic assays to verify multiple adherent and suspension cell lines for research use with RESIPHER",
+	"Characterized metabolic activity during induced T cell activation and differentiation"
+      ]
     }
   ]
 };
@@ -218,9 +221,9 @@ const bigProjects = {
   subtitle: "A few projects/publications which I led or contributed signficantly to",
   projects: [
     {
-      image: require("./assets/images/WIP.png"),
+      image: require("./assets/images/gt_library.png"),
       projectName: "Georgia Tech Master's Thesis",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Mechanisms of Coherence and Incoherence Between GWAS and Single-Cell eQTL Effects in Crohn's Disease",
       footerLink: [
         {
           name: "View Thesis",
@@ -259,37 +262,27 @@ const achievementSection = {
         "Graduate fellowship awarded based on scholastic record to rising graduate students",
       image: require("./assets/images/PSK.webp"),
       imageAlt: "Phi Sigma Kappa Scholarship Fund",
-      footerLink: [
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Randy Rhoads Memorial Scholarship",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        "",
+      image: require("./assets/images/WIP.png"),
+      imageAlt: "WIP",
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Achievement 3",
+      subtitle: "Subtitle",
+      image: require("./assets/images/WIP.png"),
+      imageAlt: "WIP Image",
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Link",
+          url: "https://google.com/"
         }
       ]
     }
