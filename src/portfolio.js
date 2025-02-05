@@ -262,10 +262,9 @@ const achievementSection = {
       image: require("./assets/images/PSK.webp"),
       imageAlt: "Phi Sigma Kappa Scholarship Fund",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Link",
-          url: "https://google.com/"
+          url: "https://phisigmakappa.org/undergrads/programs/scholarships/"
         }
       ]
     },
@@ -276,10 +275,9 @@ const achievementSection = {
       image: require("./assets/images/WIP.png"),
       imageAlt: "WIP",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Link",
-          url: "https://google.com/"
+          url: "http://www.gtpsk.org/assets/files/AlumniScholarships.pdf"
         }
       ]
     },
@@ -370,8 +368,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-6789640619",
+  email_address: "collinsjared73+githubpage@gmail.com"
 };
 
 // Twitter Section
