@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.115756e0.css",
+    "main.js": "/static/js/main.00c9adec.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.b32f57c0.chunk.js": "/static/js/64.b32f57c0.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.842dba89.chunk.js": "/static/js/769.842dba89.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/CV.pdf": "/static/media/CV.d6d2a56f473805a8ce7d.pdf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/PSK.webp": "/static/media/PSK.fbf9ed7af9497a800339.webp",
+    "static/media/gt-seal.png": "/static/media/gt-seal.d3d4ef4b34c20fa97e03.png",
+    "static/media/code_for_a_cause.png": "/static/media/code_for_a_cause.954d9505544e00fd1bb8.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/DFCI_logo.jpg": "/static/media/DFCI_logo.4030ece29ae794ae36be.jpg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/PSK_foundation_owl.png": "/static/media/PSK_foundation_owl.dfb7f99d608eebca98fe.png",
+    "static/media/MIT_Social-Media-Logo_MIT-Red.png": "/static/media/MIT_Social-Media-Logo_MIT-Red.08991fcc735ee34b40c2.png",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-c-sharp-logo.svg": "/static/media/icons8-c-sharp-logo.6a36066073346e3f6983.svg",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.115756e0.css.map": "/static/css/main.115756e0.css.map",
+    "main.00c9adec.js.map": "/static/js/main.00c9adec.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.b32f57c0.chunk.js.map": "/static/js/64.b32f57c0.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.842dba89.chunk.js.map": "/static/js/769.842dba89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115756e0.css",
+    "static/js/main.00c9adec.js"
+  ]
+}
