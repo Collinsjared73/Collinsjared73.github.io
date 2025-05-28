@@ -185,7 +185,6 @@ const workExperiences = {
       company: "Dana Farber Cancer Institute",
       companylogo: require("./assets/images/DFCI_logo.jpg"),
       date: "June 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
 	"Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
@@ -298,15 +297,14 @@ const achievementSection = {
     },
 
     {
-      title: "Achievement 3",
-      subtitle: "Subtitle",
-      image: require("./assets/images/WIP.png"),
-      imageAlt: "WIP Image",
+      title: "Zell Miller Scholarship",
+      subtitle: "Scholarship available to qualifying Georgia residents who demonstrate academic achievement",
+      image: require("./assets/images/GSFC.jpeg"),
+      imageAlt: "Georgia Student Finance Commission",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Link",
-          url: "https://google.com/"
+          url: "https://www.gafutures.org/hope-state-aid-programs/hope-zell-miller-scholarships/zell-miller-scholarship/"
         }
       ]
     }
