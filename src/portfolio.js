@@ -232,7 +232,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/WIP.png"),
+      image: require("./assets/images/code_for_a_cause.png"),
       projectName: "Mini Code for a Cause Game Jam",
       projectDesc: "A game developed in GameMakerStudio2 for the 2025 Mini Code for a Cause charity game jam!",
       footerLink: [
