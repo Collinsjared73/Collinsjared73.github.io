@@ -230,7 +230,7 @@ const bigProjects = {
   subtitle: "A few projects/publications which I've been a part of",
   projects: [
     {
-      image: require("./assets/images/gt_library.png"),
+      image: require("./assets/images/gt-library.png"),
       projectName: "Georgia Tech Master's Thesis",
       projectDesc: "Mechanisms of Coherence and Incoherence Between GWAS and Single-Cell eQTL Effects in Crohn's Disease",
       footerLink: [
