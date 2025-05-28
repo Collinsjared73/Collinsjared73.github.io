@@ -216,8 +216,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "A few projects/publications which I led or contributed signficantly to",
+  title: "Projects",
+  subtitle: "A few projects/publications which I've been a part of",
   projects: [
     {
       image: require("./assets/images/gt_library.png"),
