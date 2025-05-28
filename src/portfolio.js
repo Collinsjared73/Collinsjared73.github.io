@@ -233,12 +233,16 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/WIP.png"),
-      projectName: "WIP",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Mini Code for a Cause Game Jam",
+      projectDesc: "A game developed in GameMakerStudio2 for the 2025 Mini Code for a Cause charity game jam!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://google.com"
+          name: "Play the Game",
+          url: "https://gx.games/games/81a6n1/you-only-get-one-appendage/"
+        },
+        {
+	  name: "Game Jam"
+	  url: "https://itch.io/jam/mini-code-for-a-cause"
         }
       ]
     }
@@ -252,7 +256,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Awards, etc!",
 
   achievementsCards: [
     {
