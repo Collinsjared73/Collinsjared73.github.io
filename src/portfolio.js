@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
    {
       schoolName: "Massachusetts Institute of Technology",
-      logo: require("./assets/images/MIT_seal.png"),
+      logo: require("./assets/images/MIT_Social-Media-Logo_MIT-Red.png"),
       subHeader: "Computational and Systems Biology PhD Program",
       duration: "Sept 2025 - Present",
       desc: "",
