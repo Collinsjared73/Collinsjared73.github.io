@@ -121,15 +121,23 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
+   {
+      schoolName: "Massachusetts Institute of Technology",
+      logo: require("./assets/images/MIT_seal.png"),
+      subHeader: "Computational and Systems Biology PhD Program",
+      duration: "Sept 2025 - Present",
+      desc: "",
+      descBullets: [""]
+   }, 
+   {
       schoolName: "Georgia Institute of Technology",
       logo: require("./assets/images/gt-seal.png"),
       subHeader: "Master of Science in Biology",
       duration: "May 2022 - May 2023",
       desc: "Completed Master's Thesis research in Dr. Greg Gibson's Lab",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Evaluated coherence between genomic and transcriptomic predictive health measures for Crohn’s Disease and SLE at the single-cell level",
+        "Characterized Systemic Lupus Erythematosus and plasma cell development via analysis of single-cell RNA-seq data from PBMCs and bone marrow derived cells"
       ]
     },
     {
@@ -138,7 +146,10 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Biology",
       duration: "May 2018 - May 2022",
       desc: "Graduation with Highest Honors",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "Designed novel method to explore bacterial heteroresistance and evolution across porous cultures",
+        "Explored multicellular sparse topologies & selection favoring specialization with waning fitness return"            
+      ]
     } 
   ]  
 };
