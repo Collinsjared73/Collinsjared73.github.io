@@ -263,7 +263,7 @@ const achievementSection = {
       title: "Terrill Graduate Fellowship",
       subtitle:
         "Graduate fellowship awarded based on scholastic record to rising graduate students",
-      image: require("./assets/images/PSK.webp"),
+      image: require("./assets/images/PSK_foundation_owl.png"),
       imageAlt: "Phi Sigma Kappa Scholarship Fund",
       footerLink: [
         {
@@ -276,7 +276,7 @@ const achievementSection = {
       title: "Randy Rhoads Memorial Scholarship",
       subtitle:
         "",
-      image: require("./assets/images/WIP.png"),
+      image: require("./assets/images/PSK.webp"),
       imageAlt: "WIP",
       footerLink: [
         {
