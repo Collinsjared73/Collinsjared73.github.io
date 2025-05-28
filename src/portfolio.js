@@ -275,9 +275,9 @@ const achievementSection = {
     {
       title: "Randy Rhoads Memorial Scholarship",
       subtitle:
-        "",
+        "Award given in memory of Randy to those exemplifying his memory and character",
       image: require("./assets/images/PSK.webp"),
-      imageAlt: "WIP",
+      imageAlt: "Phi Sigma Kappa Kappa Deuteron Scholarship Fund",
       footerLink: [
         {
           name: "Link",
