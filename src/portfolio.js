@@ -241,7 +241,7 @@ const bigProjects = {
           url: "https://gx.games/games/81a6n1/you-only-get-one-appendage/"
         },
         {
-	  name: "Game Jam"
+	  name: "Game Jam",
 	  url: "https://itch.io/jam/mini-code-for-a-cause"
         }
       ]
