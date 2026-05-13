@@ -68,6 +68,17 @@
   background-color: $instagram;
 }
 
+.orcid i {
+  background-color: $orcid;
+}
+
+.researchgate i {
+  background-color: $researchgate;
+}
+
+.scholar i {
+  background-color: $scholar;
+}
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -76,7 +87,10 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
+.orcid i:hover,
+.researchgate i:hover,
 .stack-overflow i:hover,
+.scholar i:hover,
 .kaggle i:hover,
 .medium i:hover {
   background-color: $textColor;

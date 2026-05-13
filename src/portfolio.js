@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Collinsjared73",
-  title: "Hi all, I'm Jared",
+  username: "JaredBCollins",
+  title: "Hi all, I'm Jared Collins",
   subTitle: emoji(
-    "Test SubTitle"
+    "A passionate computational biology researcher and coding hobbyist. This site is a work in progress, so bear with me as it fills out!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,10 +33,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Collinsjared73",
+  github: "https://github.com/JaredBCollins",
   linkedin: "https://www.linkedin.com/in/jared-collins/",
   gmail: "collinsjared73@gmail.com",
-  // ORCID: "https://orcid.org/0009-0006-7184-3875",
+  orcid: "https://orcid.org/0009-0006-7184-3875",
+  researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
+  scholar: "https://scholar.google.com/citations?user=TxC9P4AAAAAJ&hl=en&oi=ao",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -49,21 +51,35 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
+    emoji("🔬 Analyze large, multimodal biological datasets to address complex questions"),
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🛠️ Build new methods to address problems with multi-omics data"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+   {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"  
+    },
+    {
+      skillName: "c-sharp",
+      fontAwesomeClassname: "csharp"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -89,28 +105,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -125,32 +121,43 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+   {
+      schoolName: "Massachusetts Institute of Technology",
+      logo: require("./assets/images/MIT_Social-Media-Logo_MIT-Red.png"),
+      subHeader: "Computational and Systems Biology PhD Program",
+      duration: "Sept 2025 - Present",
+      desc: "PhD Student in David Page's Lab",
+      descBullets: [""]
+   }, 
+   {
+      schoolName: "Georgia Institute of Technology",
+      logo: require("./assets/images/gt-seal.png"),
+      subHeader: "Master of Science in Biology",
+      duration: "May 2022 - May 2023",
+      desc: "Completed Master's Thesis research in Dr. Greg Gibson's Lab",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Evaluated coherence between genomic and transcriptomic predictive health measures for Crohn’s Disease and SLE at the single-cell level",
+        "Characterized Systemic Lupus Erythematosus and plasma cell development via analysis of single-cell RNA-seq data from PBMCs and bone marrow derived cells"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      schoolName: "Georgia Institute of Technology",
+      logo: require("./assets/images/gt-seal.png"),
+      subHeader: "Bachelor of Science in Biology",
+      duration: "May 2018 - May 2022",
+      desc: "Graduation with Highest Honors",
+      descBullets: [
+        "Designed novel method to explore bacterial heteroresistance and evolution across porous cultures",
+        "Explored multicellular sparse topologies & selection favoring specialization with waning fitness return"            
+      ]
+    } 
+  ]  
 };
-
+      
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +181,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Bioinformatics Engineer",
+      company: "Dana Farber Cancer Institute",
+      companylogo: require("./assets/images/DFCI_logo.jpg"),
+      date: "June 2023 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
+	"Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
+        "Analyzed single cell and spatial RNA-seq data from longitudinal serial biopsies as part of paradigm shifting clinical trials in GBM alongside collaborators worldwide",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Undergraduate/Graduate Teaching Assistant",
+      company: "Georgia Institute of Technology",
+      companylogo: require("./assets/images/gt-seal.png"),
+      date: "Aug 2021 – May 2023",
+      descBullets: ["Created and held weekly lectures and review sessions for 80+ students",
+	"Taught weekly recitation and guided flipped-classroom style sessions 3x weekly",
+	"Led two wet laboratory classes of 24 students in lecture and experiments across a range of biological sciences",
+	"Wrote and conducted test reviews to bolster student understanding and engagement"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Biologist Researcher Intern",
+      company: "Lucid Scientific",
+      companylogo: require("./assets/images/lucid_logo.jpeg"),
+      date: "May 2022 – Aug 2022",
+      descBullets: ["Analyzed oxygen consumption rate of iPSCs during induced differentiation to cardiomyocytes",
+	"Conducted metabolic assays to verify multiple adherent and suspension cell lines for research use with RESIPHER",
+	"Characterized metabolic activity during induced T cell activation and differentiation"
+      ]
     }
   ]
 };
@@ -206,35 +220,39 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "A few projects/publications which I've been a part of",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gt-library.png"),
+      projectName: "Georgia Tech Master's Thesis",
+      projectDesc: "Mechanisms of Coherence and Incoherence Between GWAS and Single-Cell eQTL Effects in Crohn's Disease",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Thesis",
+          url: "https://hdl.handle.net/1853/72087"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/code_for_a_cause.png"),
+      projectName: "Mini Code for a Cause Game Jam",
+      projectDesc: "A game developed in GameMakerStudio2 for the 2025 Mini Code for a Cause charity game jam!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Play the Game",
+          url: "https://gx.games/games/81a6n1/you-only-get-one-appendage/"
+        },
+        {
+	  name: "Game Jam",
+	  url: "https://itch.io/jam/mini-code-for-a-cause"
         }
       ]
     }
@@ -248,54 +266,45 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Awards, etc!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Terrill Graduate Fellowship",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Graduate fellowship awarded based on scholastic record to rising graduate students",
+      image: require("./assets/images/PSK_foundation_owl.png"),
+      imageAlt: "Phi Sigma Kappa Scholarship Fund",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Link",
+          url: "https://phisigmakappa.org/undergrads/programs/scholarships/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Randy Rhoads Memorial Scholarship",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Award given in memory of Randy to those exemplifying his memory and character",
+      image: require("./assets/images/PSK.webp"),
+      imageAlt: "Phi Sigma Kappa Kappa Deuteron Scholarship Fund",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Link",
+          url: "http://www.gtpsk.org/assets/files/AlumniScholarships.pdf"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Zell Miller Scholarship",
+      subtitle: "Scholarship available to qualifying Georgia residents who demonstrate academic achievement",
+      image: require("./assets/images/GSFC.jpeg"),
+      imageAlt: "Georgia Student Finance Commission",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Link",
+          url: "https://www.gafutures.org/hope-state-aid-programs/hope-zell-miller-scholarships/zell-miller-scholarship/"
         }
       ]
     }
@@ -324,7 +333,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -337,13 +346,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Talk Title",
+      subtitle: "Talk location",
+      slides_url: "https://www.google.com",
+      event_url: "https://www.google.com"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +365,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +380,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to reach out? My Inbox is open!",
+  number: "+1-6789640619",
+  email_address: "collinsjared73+githubpage@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

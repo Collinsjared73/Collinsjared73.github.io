@@ -127,6 +127,42 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.orcid ? (
+        <a
+          href={socialMediaLinks.orcid}
+          className="icon-button orcid"
+          target="_blank"
+          rel="noopener noreferrer"
+        > 
+          <i className="fab fa-orcid"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.scholar ? (
+        <a
+          href={socialMediaLinks.scholar}
+          className="icon-button scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-google-scholar"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.researchgate ? (
+        <a
+          href={socialMediaLinks.researchgate}
+          className="icon-button researchgate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-researchgate"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
