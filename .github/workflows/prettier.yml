@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - master
+      - mod
 jobs:
   check-format:
     runs-on: ubuntu-latest
