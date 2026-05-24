@@ -187,7 +187,7 @@ const workExperiences = {
       role: "Bioinformatics Engineer",
       company: "Dana Farber Cancer Institute",
       companylogo: require("./assets/images/DFCI_logo.jpg"),
-      date: "June 2023 – Present",
+      date: "June 2023 – Aug 2025",
       descBullets: [
         "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
         "Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
