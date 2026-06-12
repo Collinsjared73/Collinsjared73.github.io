@@ -130,7 +130,9 @@ const educationInfo = {
       subHeader: "Computational and Systems Biology PhD Program",
       duration: "Sept 2025 - Present",
       desc: "PhD Student in David Page's Lab",
-      descBullets: ["Certificates in Grant Writing Training and Research Mentoring"]
+      descBullets: [
+        "Certificates in Grant Writing Training and Research Mentoring"
+      ]
     },
     {
       schoolName: "Georgia Institute of Technology",
