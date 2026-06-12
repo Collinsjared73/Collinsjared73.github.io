@@ -129,7 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/MIT_Social-Media-Logo_MIT-Red.png"),
       subHeader: "Computational and Systems Biology PhD Program",
       duration: "Sept 2025 - Present",
-      desc: "PhD Student in David Page's Lab",
+      desc: "PhD Student in Dr. David Page's Lab",
       descBullets: [
         "Certificates in Grant Writing Training and Research Mentoring"
       ]
